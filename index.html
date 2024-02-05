@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Maker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="color-options">
+        <input id="color" type="color" />
+        <div class="color-option" style="background-color: #f7d794;" data-color="#f7d794"></div>
+        <div class="color-option" style="background-color: #778beb;" data-color="#778beb"></div>
+        <div class="color-option" style="background-color: #e77f67;" data-color="#e77f67"></div>
+        <div class="color-option" style="background-color: #cf6a87;" data-color="#cf6a87"></div>
+        <div class="color-option" style="background-color: #f19066;" data-color="#f19066"></div>
+        <div class="color-option" style="background-color: #f5cd79;" data-color="#f5cd79"></div>
+        <div class="color-option" style="background-color: #546de5;" data-color="#546de5"></div>
+        <div class="color-option" style="background-color: #c44569;" data-color="#c44569"></div>
+        <div class="color-option" style="background-color: #786fa6;" data-color="#786fa6"></div>
+        <div class="color-option" style="background-color: #f8a5c2;" data-color="#f8a5c2"></div>
+    </div>
+    <canvas></canvas>
+    <div class="btns">
+        <span id="pencil-name">Pencil Width Bar</span>
+        <input id="line-width" type="range" min="1" max="10" value="5" step="0.5" />
+        <button id="mode-btn">Fill</button>
+        <button id="destroy-btn">Destroy</button>
+        <button id="eraser-btn">Eraser</button>
+        <input type="text" placeholder="Add text here :) " id="text">
+        <input type="file" accept="image/*" id="file">
+        <label for="file">Add Photo</label>
+        <button id="save">Save image</button>
+        
+    </div>
+    <script src="app.js" rel=""></script>
+</body>
+</html>
