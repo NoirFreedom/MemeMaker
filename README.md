@@ -14,7 +14,7 @@
 
 ## 기술 스택
 
-`HTML5` `CSS3` `JavaScript` `jQuery` `Sass` `Bootstrap`
+`HTML5` `CSS3` `JavaScript` `jQuery` `Bootstrap`
 
 ## 사용자 경험
 
